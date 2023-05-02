@@ -1,4 +1,7 @@
 //your JS code here. If required.
-var element;
-document.getElementById("status").innerHTML=="<h1>Entered Metaverse</h1>";
-document.write(element);
+const enterBtn = document.getElementById('enterBtn');
+const status = document.getElementById('status');
+
+enterBtn.addEventListener('click', function() {
+  status.innerHTML = '<h1>Entered Metaverse</h1>';
+});
